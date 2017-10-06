@@ -6,11 +6,8 @@ exclude: ["node_modules",
   "preview.jpg",
   "README.md"]
 
-<<<<<<< HEAD
 theme: jekyll-theme-minimal
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://srnarasim.github.io/website/"
-=======
-theme: jekyll-theme-minimal
->>>>>>> origin/master
+
