@@ -6,4 +6,7 @@ exclude: ["node_modules",
   "preview.jpg",
   "README.md"]
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://srnarasim.github.io/website/"
