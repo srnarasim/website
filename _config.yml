@@ -9,5 +9,5 @@ exclude: ["node_modules",
 theme: jekyll-theme-minimal
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://srnarasim.github.io/website/"
+url: ""
 
