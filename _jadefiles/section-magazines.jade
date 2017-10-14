@@ -1,0 +1,20 @@
+section.magazines#magazines
+  .flex.flex--center
+
+    .col-50
+      .magazine-wrap
+        {% for magazine in site.magazines limit: 12 %}
+        a(href="{{magazine.url}}" style="background-image: url({{magazine.cover}})").magazine-thumb
+          .magazine-meta
+            .name {{magazine.title}}
+            .date {{magazine.date | date: "%b %d, %Y"}}
+        {% endfor %}
+        
+
+
+    .col-50.flex.flex--center <!--.order-first-->
+      .col-1
+        .desc-wrap
+          p.home-lead.outdented ...Writes in magazines...
+          a(href="/magazines").home-cta See All Publications
+

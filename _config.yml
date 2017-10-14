@@ -11,3 +11,10 @@ theme: jekyll-theme-minimal
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://srnarasim.github.io/website/"
 
+collections:
+  books:
+    output: true
+  about:
+    output: true
+  magazines:
+    output: true

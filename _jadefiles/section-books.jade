@@ -1,0 +1,19 @@
+section.books#books
+  .flex.flex--center
+
+    .col-50.flex.flex--center
+      .book-wrap
+        {% for book in site.books limit: 12 %}
+        a(href="{{book.url}}" style="background-image: url({{book.cover}})").book-thumb
+          .book-meta
+            .name {{book.title}}
+            .date {{book.date | date: "%b %d, %Y"}}
+        {% endfor %}
+        
+
+
+    .col-50.flex.flex--center <!--.order-first-->
+      .col-1
+        .desc-wrap
+          p.home-lead.outdented ...Writes books...
+          a(href="/books").home-cta See All Books

@@ -1,0 +1,21 @@
+<section id="articles" class="articles">
+    <div class="flex flex--center">
+        <div class="col-50">
+            <div class="article-wrap">{% for book in site.books limit: 12 %}<a href="{{book.url}}"
+                                                                               style="background-image: url({{book.cover}})"
+                                                                               class="article-thumb">
+                <div class="article-meta">
+                    <div class="name">{{book.title}}</div>
+                    <div class="cover"><img src="{{book.cover}}"/></div>
+                </div>
+            </a>{% endfor %}
+            </div>
+        </div>
+        <div class="col-50 flex flex--center"><!--.order-first-->
+            <div class="col-1">
+                <div class="desc-wrap"><p class="home-lead outdented">...budding author ...
+                    </p><a href="/books" class="home-cta">See All Books</a></div>
+            </div>
+        </div>
+    </div>
+</section>

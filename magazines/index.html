@@ -1,0 +1,22 @@
+---
+layout: default
+title: Books | Sridevi Krishnan
+---
+
+<a class="magazine-index-back-to-home-link" href="/"><span>home</span></a>
+
+<div class="magazine-index-wrap">
+    <h2>Index</h2>
+    {% for book in site.books %}
+    <article>
+        <a href="{{book.url}}"
+           style="background-image: url({{book.cover}})"
+           class="article-thumb">
+            <div class="article-meta">
+                <div><img src="{{book.cover}}"/></div>
+                <div class="name"> {{book.title}}</div>
+            </div>
+        </a>
+    </article>
+    {% endfor %}
+</div>
