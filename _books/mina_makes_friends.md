@@ -2,8 +2,8 @@
 layout: book
 type: book
 title: Mina Makes Friends
-cover: /assets/books/book-assets/mina/img/mina_makes_friends_cover.jpg
-styles: <link rel="stylesheet" href="/assets/books/book-assets/mina/css/style.css">
+cover: assets/books/book-assets/mina/img/mina_makes_friends_cover.jpg
+styles: <link rel="stylesheet" href="../assets/books/book-assets/mina/css/style.css">
 height: 400px
 ---
 
@@ -18,5 +18,5 @@ This book can be used by parents and educators to discuss the topic of moving,
 being a new kid in the class, be curious and venture out.
                 
 
-![Alt text](assets/books/book-assets/mina/img/mina_makes_friends_cover.jpg)
+![Alt text](../assets/books/book-assets/mina/img/mina_makes_friends_cover.jpg)
 
