@@ -1,8 +1,21 @@
 ---
 layout: default
 ---
- 
-{{ content }}
+
+<div class="page-note">
+
+    <a href="/#books" class="back-to-books icon-arrow-left"></a>
+
+    <h2>{{page.book-name}}</h2>
+    <small>{{page.book-time}}</small>
 
 
-{% include post-nav-bar.html %}
+    {{ content }}
+
+</div>
+
+<script type="text/javascript">
+    $(function() {
+        $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1">');
+    });
+</script>
